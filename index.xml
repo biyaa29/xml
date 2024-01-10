@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- products conflicts -->
+<productz>
+    <abs:product xmlns:abs="www.abs.com">
+        <abs:name>aloevera</abs:name>
+        <abs:price>800</abs:price>
+        <abs:company>living forever</abs:company>
+    </abs:product>
+    <xyz:product xmlns:xyz="www.xyz.com">
+        <xyz:name>honey bee</xyz:name>
+        <xyz:price>5000</xyz:price>
+        <xyz:company>living forever</xyz:company>
+    </xyz:product>
+    <abc:product xmlns:abc="www.abc.com">
+        <abc:name>pounds</abc:name>
+        <abc:price>600</abc:price>
+        <abc:company>uniliver</abc:company>
+    </abc:product>
+</productz>
