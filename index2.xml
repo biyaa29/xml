@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD -->
+<!DOCTYPE PersonData [
+    <!ELEMENT PersonData (person+)>
+    <!ELEMENT person (name,age,course,email)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT course (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ATTLIST person id CDATA #REQUIRED>
+]>
+<PersonData>
+    <person id="1">
+        <name>Rabiya</name>
+        <age>18</age>
+        <course>DISM</course>
+        <email>rabiyaarain41@gmail.com</email>
+    </person>
+    <person id="2">
+        <name>Sehar</name>
+        <age>18</age>
+        <course>DISM</course>
+        <email>seharakbar@gmail.com</email>
+    </person> 
+    <person id="3">
+        <name>Malyka</name>
+        <age>18</age>
+        <course>DISM</course>
+        <email>malykarajput@gmail.com</email>
+    </person>
+    <person id="4">
+        <name>Areeba</name>
+        <age>18</age>
+        <course>DISM</course>
+        <email>areebaashraf@gmail.com</email>
+    </person>
+</PersonData>
