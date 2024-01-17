@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="index4style.xsl" type="text/xsl"?>
+<students>
+    <student>
+        <id>505</id>
+        <name>rabiya</name>
+        <age>19</age>
+        <email>rabiyaaraain41@gmail.com</email>
+        <semester>dism</semester>
+    </student>
+    <student>
+        <id>501</id>
+        <name>sehar</name>
+        <age>19</age>
+        <email>seharakbar1@gmail.com</email>
+        <semester>cpism</semester>
+    </student>
+    <student>
+        <id>502</id>
+        <name>malyka</name>
+        <age>20</age>
+        <email>malykarajput@gmail.com</email>
+        <semester>cpism</semester>
+    </student>
+    <student>
+        <id>503</id>
+        <name>areeba</name>
+        <age>19</age>
+        <email>areebaashraf@gmail.com</email>
+        <semester>cpism</semester>
+    </student>
+    <student>
+        <id>504</id>
+        <name>asma</name>
+        <age>20</age>
+        <email>asmaakhan@gmail.com</email>
+        <semester>cpism</semester>
+    </student>
+</students>
