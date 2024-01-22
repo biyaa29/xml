@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let data= `
+        {
+          "students":[
+        {
+            "id":23,
+            "name":"rabiya",
+            "semester":["cpism","dism","adse"],
+            "marks":{"cpism":50,"dism":80,"adse":60},
+            "pass":true
+        },
+        {
+            "id":25,
+            "name":"areeba",
+            "semester":["cpism","dism","adse"],
+            "marks":{"cpism":50,"dism":80,"adse":60},
+            "pass":false
+        },
+        {
+            "id":27,
+            "name":"sehar",
+            "semester":["cpism","dism","adse"],
+            "marks":{"cpism":50,"dism":80,"adse":60},
+            "pass":true
+        }
+    ]
+ }  `
+    let student =[
+        {
+            id:27,
+            name:'sehar',
+            semester:'cpism',
+            marks:50,
+            pass:true
+        },
+        {
+            id:25,
+            name:'areeba',
+            semester:'adse',
+            marks:60,
+            pass:true
+        },
+        {
+            id:23,
+            name:'rabiya',
+            semester:'dism',
+            marks:80,
+            pass:true
+        }
+    ]
+   console.log(JSON.stringify(student))
+//  console.log(JSON.parse(data))
+
+    </script>
+</body>
+</html>

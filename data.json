@@ -1,0 +1,25 @@
+{
+    "students":[
+        {
+            "id":23,
+            "name":"rabiya",
+            "semester":["cpism","dism","adse"],
+            "marks":{"cpism":50,"dism":80,"adse":60},
+            "pass":true
+        },
+        {
+            "id":25,
+            "name":"areeba",
+            "semester":["cpism","dism","adse"],
+            "marks":{"cpism":50,"dism":80,"adse":60},
+            "pass":false
+        },
+        {
+            "id":27,
+            "name":"sehar",
+            "semester":["cpism","dism","adse"],
+            "marks":{"cpism":50,"dism":80,"adse":60},
+            "pass":true
+        }
+    ]
+}
