@@ -1,3 +1,4 @@
+// Conditions
 // let student="pass"
 // if(student=="pass"){
 //     document.write(true)
